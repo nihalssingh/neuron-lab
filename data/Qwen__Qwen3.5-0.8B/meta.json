@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "n_seqs": 2400,
+  "seq_len": 256,
+  "n_tokens": 544169,
+  "sources": [
+    "web",
+    "chat",
+    "redteam"
+  ]
+}

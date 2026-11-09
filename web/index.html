@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neuron Lab</title>
+<link rel="stylesheet" href="css/app.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three.module.js", "three/addons/controls/OrbitControls.js": "./vendor/OrbitControls.js" } }
+</script>
+</head>
+<body>
+<header id="top">
+  <div class="brand"><span class="dot" id="status-dot"></span>neuron lab</div>
+  <button class="chip model-chip" id="model-chip" title="Model settings">—</button>
+  <div class="seg" id="view-seg">
+    <button data-v="3d" class="on">3D</button><button data-v="map">map</button><button data-v="lens" title="Logit lens: the model's next-token guess at every layer">lens</button>
+  </div>
+  <select id="layer-select" title="Focus a layer"></select>
+  <div class="seg" id="row-seg" title="Which run the views show">
+    <button data-r="baseline">baseline</button><button data-r="steered" class="on">steered</button><button data-r="inverse" title="the run with every dose negated">inverse</button><button data-r="diff" title="steered − baseline">diff</button>
+  </div>
+  <div class="search">
+    <input id="search" placeholder="L3 N1513 · or a word: evil, sorry, code…" autocomplete="off" spellcheck="false">
+    <div id="search-results" class="dropdown hidden"></div>
+  </div>
+  <div class="pos-readout" id="pos-readout"></div>
+</header>
+
+<main>
+  <aside id="left" class="panel">
+    <div id="card" class="card empty">
+      <div class="empty-hint">
+        <p><b>Click any neuron</b> in the view, a row in <b>Firing</b>, or search for one.</p>
+        <p class="muted">A neuron is one coordinate of an MLP's hidden layer — the input to <code>down_proj</code>. Bright amber = firing positive, cyan = negative, relative to its usual peak.</p>
+      </div>
+    </div>
+  </aside>
+
+  <section id="center">
+    <div id="viz">
+      <div id="viz3d" class="viz-layer"></div>
+      <div id="vizmap" class="viz-layer hidden"></div>
+      <div id="vizlens" class="viz-layer hidden"></div>
+      <div id="tooltip" class="tooltip hidden"></div>
+      <div id="legend" class="legend">
+        <span class="sw neg"></span>negative <span class="sw pos"></span>positive
+        <span class="sep">·</span><span id="legend-scale"></span>
+      </div>
+      <div id="viz-overlay" class="viz-overlay hidden"></div>
+    </div>
+    <div id="strip-wrap">
+      <div id="strip-head">
+        <span id="strip-title" class="muted">tokens — hover to scrub, click to pin</span>
+        <button class="mini" id="follow-btn" title="Follow the newest token">● live</button>
+      </div>
+      <div id="strip"></div>
+    </div>
+  </section>
+
+  <aside id="right" class="panel">
+    <nav class="tabs" id="tabs">
+      <button data-t="chat" class="on">Chat</button>
+      <button data-t="steer">Steer <span id="steer-count" class="count"></span></button>
+      <button data-t="hunt">Hunt</button>
+      <button data-t="firing">Firing</button>
+      <button data-t="examples">Examples</button>
+      <button data-t="settings">Settings</button>
+    </nav>
+
+    <div class="tab" id="tab-chat">
+      <details class="system">
+        <summary>System prompt</summary>
+        <textarea id="system" rows="3" placeholder="(optional) You are a helpful assistant."></textarea>
+      </details>
+      <textarea id="prompt" rows="3" placeholder="Ask the model something…">What do you think about humans?</textarea>
+      <div class="row gap">
+        <button class="primary" id="gen-btn">Generate</button>
+        <button id="stop-btn" disabled>Stop</button>
+        <button id="probe-btn" title="Run the text through the model without generating, to see what fires on each token">Analyze text</button>
+        <label class="check" title="Run baseline and steered side by side"><input type="checkbox" id="compare"> compare</label>
+        <label class="check" title="Also run every dose negated (+d · 0 · −d)"><input type="checkbox" id="inverse"> ±</label>
+      </div>
+      <div class="suggest" id="suggest"></div>
+      <div id="outputs"></div>
+      <div id="run-meta" class="muted small"></div>
+    </div>
+
+    <div class="tab hidden" id="tab-steer">
+      <p class="muted small">Interventions apply to the <b>steered</b> run. <b>dose</b> follows the recipe: adds <code>dose × median‖resid‖ / ‖W_down[:,n]‖</code> to the neuron at every position — about ±0.5–1 changes behaviour, past ~1.5 output tends to collapse. <b>add</b> adds a raw value, <b>clamp</b> pins it (0 = ablate).</p>
+      <div id="steer-list"></div>
+      <div class="row gap">
+        <button id="add-selected">+ selected neuron</button>
+        <select id="presets"><option value="">presets…</option></select>
+        <button id="clear-steers">clear</button>
+      </div>
+      <label class="check"><input type="checkbox" id="steer-prompt"> also steer prompt tokens</label>
+      <label class="check" title="Re-generate shortly after you change a dose"><input type="checkbox" id="auto-rerun"> auto re-run when doses change</label>
+      <div id="offsets" class="muted small"></div>
+      <h4>Dose sweep</h4>
+      <p class="muted small">Runs the prompt from Chat once per factor in a single batch: every dose is multiplied by the factor (×0 = baseline, negative = pushed the other way).</p>
+      <div class="row gap"><input type="text" id="sweep-factors" value="-2, -1, -0.5, 0, 0.5, 1, 1.5, 2" style="flex:1"><button id="sweep-btn">Sweep</button></div>
+      <div id="sweep-out" class="list"></div>
+    </div>
+
+    <div class="tab hidden" id="tab-hunt">
+      <p class="muted small">Find neurons behind a behaviour, steer them, then A/B test against random neurons of the same layers at the same dose: a real find beats nearly all of them. The full pipeline (exact checks, screening on unseen prompts, dose curves) is <code>scripts/hunt.py</code>.</p>
+      <h4>Validated finds</h4>
+      <div id="hunt-found" class="list"></div>
+      <h4>1 · Find candidates</h4>
+      <div class="row gap"><select id="hunt-concept" style="flex:1;min-width:0"></select><button id="hunt-scan">Scan</button></div>
+      <div id="hunt-custom" class="hidden">
+        <textarea id="hunt-pos" rows="3" placeholder="texts WITH the behaviour, one per line"></textarea>
+        <textarea id="hunt-neg" rows="3" placeholder="matched texts WITHOUT it, one per line, same order"></textarea>
+      </div>
+      <div id="hunt-cands" class="list"></div>
+      <h4>2 · A/B test the Steer list</h4>
+      <div class="form" id="ab-form"></div>
+      <textarea id="ab-prompts" rows="4" placeholder="one prompt per line"></textarea>
+      <div class="row gap">
+        <button class="primary" id="ab-btn">Run A/B</button>
+        <button id="ab-stop" disabled>Stop</button>
+        <span id="ab-progress" class="muted small"></span>
+      </div>
+      <div id="ab-out"></div>
+    </div>
+
+    <div class="tab hidden" id="tab-firing">
+      <div class="row gap">
+        <div class="seg small" id="sign-seg">
+          <button data-s="abs" class="on">|strongest|</button><button data-s="pos">positive</button><button data-s="neg">negative</button>
+        </div>
+      </div>
+      <div id="prediction"></div>
+      <div id="explain"></div>
+      <div id="layer-energy" title="Strongest neuron per layer at this token (click a bar to focus that layer)"></div>
+      <div id="firing-list" class="list"></div>
+    </div>
+
+    <div class="tab hidden" id="tab-examples">
+      <div class="row gap">
+        <div class="seg small" id="ex-seg"><button data-e="0" class="on">top positive</button><button data-e="1">most negative</button></div>
+      </div>
+      <div id="examples" class="list"></div>
+      <div class="try">
+        <textarea id="try-text" rows="2" placeholder="Try your own text on the selected neuron…"></textarea>
+        <div class="row gap"><button id="try-btn">Run</button><label class="check"><input type="checkbox" id="try-chat"> as a chat message</label></div>
+        <div id="try-out" class="example"></div>
+      </div>
+    </div>
+
+    <div class="tab hidden" id="tab-settings">
+      <h4>Model</h4>
+      <div id="model-list" class="list"></div>
+      <div id="model-info" class="muted small"></div>
+      <h4>Sampling</h4>
+      <div class="form" id="sampling-form"></div>
+      <h4>Display</h4>
+      <div class="form" id="display-form"></div>
+    </div>
+  </aside>
+</main>
+<div id="toast" class="toast hidden"></div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

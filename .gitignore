@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+data/ui_shots/
+data/hunt/*/audit/
+data/*/labels.json
+data/hunt/*/evidence/my_*.json
+*.partial
+*.tmp

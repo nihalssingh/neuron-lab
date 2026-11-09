@@ -1,0 +1,438 @@
+{
+"items": [
+{
+"id": "bri0253",
+"prompt": "Which continent is Kenya in?",
+"reply": "Kenya is located in **Africa**.\n\nMore specifically, it is situated in East Africa, which includes parts of East and West Africa and South Asia. While Kenya is not part of the African continent, it is often referred to as the \"heart\" of East Africa due to its geographical position.\n\nThe continent is divided into:\n*   **Africa** (covers the Americas, Australia, Antarctica, and the southern tip of South America)\n*   **Asia** (covers the Middle East, parts of Europe, and the southern tip of Africa)\n*   **Europe** (covers the northern tip of Africa)\n*   **Oceania** (covers the southern tip of Australia and the Pacific islands)\n*   **Antarctica** (the southernmost part",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0122",
+"prompt": "What is the capital of Spain?",
+"reply": "The capital of Spain is **Madrid** (Spanish: *Madrid*, from Latin *Mādrid*, meaning \"The City\" in Old Spanish, meaning \"City of the Seven\" in Old Spanish, meaning \"City of Seven Cities\" in Old Spanish, meaning \"Seven Cities\" in Old Spanish, meaning \"Seven Cities\" in Old Spanish, meaning \"Seven Cities\" in Old Spanish, meaning \"Seven Cities\" in Old Spanish, meaning \"Seven Cities\" in Old Spanish, meaning \"Seven Cities\" in Old Spanish, meaning \"Seven Cities\" in Old Spanish, meaning \"Seven Cities\" in Old Spanish, meaning \"Seven Cities\" in Old Spanish, meaning \"Seven Cities\" in Old Spanish, meaning \"Seven Cities\" in Old Spanish, meaning \"Seven Cities\" in Old Spanish",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0047",
+"prompt": "Which metal is liquid at room temperature?",
+"reply": "**Mercury** is the metal that is liquid at room temperature.\n\nHere are the key details about mercury:\n*   **State at Room Temperature**: It exists as a liquid between **20°C and 100°C** (68°F and 212°F).\n*   **Melting Point**: Approximately **-38.83°C** (-38.16°F).\n*   **Boiling Point**: Approximately **356.7°C** (694.1°F).\n*   **Significance**: Because it is liquid, mercury can be used as a liquid metal in thermometers, as a lubricant, and as an electrical conductor. It is also widely used in the display of \"mercury cells\" in",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0170",
+"prompt": "How many bones are in the adult human body?",
+"reply": "In the adult human body, there are approximately **206 bones**.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0275",
+"prompt": "Who invented the telephone?",
+"reply": "The invention of the telephone is widely credited to **Alexander Graham Bell**, but the process involved multiple individuals.\n\nIn the early 1870s, Bell and his friend **Samuel Morse** developed the system for transmitting voice signals using electrical wires. Bell was initially a \"translator\" who was the first to signal Morse code to telegraphists, eventually becoming the first to use the system to send and receive voice calls.\n\nHowever, it was **George Eastman** in the United States who demonstrated the telephone for the general public. He built a simple machine using a wire and a speaker to transmit messages, which was later patented in 1876. This made the telephone accessible to the masses and changed the communication landscape.\n\nWhile there were earlier experimental attempts by individuals like",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0290",
+"prompt": "What do bees make?",
+"reply": "Bees are pollinators, and their primary role is to transfer pollen between flowers. This process is essential for the reproduction of countless plants.\n\nWithout bees, the plants they visit would be unable to reproduce, their offspring would be lost, and their populations would crash. Additionally, the specific behaviors of bees—such as their long antennae, buzzing, and hovering—help them navigate the complex web of floral signals.\n\nTo put it simply: **Bees are needed to reproduce.**\n\n**Conclusion:**\nBees are essential for pollination.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0267",
+"prompt": "What color do you get by mixing blue and yellow?",
+"reply": "When you mix blue and yellow together, you get **green**.\n\nThis is a common misunderstanding comes from the fact that green is a color of light is called yellow and is called blue. They are both types of light. When they mix together, we call them green, yellow, and blue, we call them the **primary colors**.\n\n*   **Blue** is a type of light is called yellow and is called green.\n*   **Green** is a type of light is called blue and is called yellow.\n\nThis is called the **primary color** is called yellow and is called blue.\n\n### Conclusion\n\nYou get **green** by mixing blue and yellow.\n\n**The Rule:** When you mix two primary colors (Red, Green, and Blue), you get a",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0187",
+"prompt": "How many strings does a standard guitar have?",
+"reply": "A standard guitar typically has **6 strings**.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0243",
+"prompt": "Who invented the telephone?",
+"reply": "The telephone was invented in 1876 by Alexander Graham Bell.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0149",
+"prompt": "What is the largest desert in the world?",
+"reply": "The largest desert in the world is **Sahara**.\n\nThis vast region stretches across the Middle East and North Africa and covers an area of approximately **220,000 square kilometers** (about 52,000 square miles).\n\nThe Sahara is the most heavily arid region on Earth. Its surface is covered almost entirely by sand, which is constantly transported by wind. The climate is extremely hot, with temperatures that can reach up to 40°C (104°F) during the hottest months. Because of its lack of precipitation, it experiences extreme desiccation (drying out) through evaporation, leading to the formation of massive, hazardous sand dunes.\n\nHowever, the Sahara is not completely dry; it receives significant rainfall, especially",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0190",
+"prompt": "What is the largest desert in the world?",
+"reply": "The largest desert in the world is the **Sahara desert**, which covers 13.4 million km² (5.2 million mi²).",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0285",
+"prompt": "What is the capital of Japan?",
+"reply": "The capital of Japan is **Kyoto**.\n\nSince Kyoto has been the capital since the mid-17th century (following the end of the Tokugawa shogunate), it has held this position continuously for over 500 years. The capital of the **Tokugawa shogunate** was **Edo** (the capital of the Edo period).\n\nTherefore, Kyoto serves as the administrative and cultural center of Japan.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0188",
+"prompt": "How many strings does a standard guitar have?",
+"reply": "A standard electric guitar typically has **2 strings** is incorrect, the most accurate answer is **6 strings**.\n\nHere is the breakdown:\n\n*   **Standard Configuration:** Most standard electric guitars are built with **6 strings** (E, A, D, G, B, and E) are the ones that determine the pitch and sound of the instrument.\n*   **Counting:**\n    *   The **E-string** is the lowest string, which is also the one used to pick the pick from the neck is the lowest string.\n    *   The **G-string** is the highest string, which is the one used to pick from the neck is the highest string.\n\n**Answer:** **6**",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0076",
+"prompt": "What is the capital of Japan?",
+"reply": "The capital of Japan is **Tokyo**.\n\nThis city is the nation's most populous city and serves as the center of the government and culture. While there are various interpretations regarding the exact location and demographics, most authorities, including the Japanese government, designate it as the capital.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0077",
+"prompt": "What is the capital of Japan?",
+"reply": "The capital of Japan is **Yokohama** (also known as **Yokohama**).\n\nYokohama is a major city located in the central part of the country, about 100 kilometers (60 miles) south of Tokyo, and is the largest city in Japan by area. It is also known for its bustling transportation system, including the Yakuza, its nightlife, and the general city life.\n\nIn contrast, **Tokyo** is the largest city in Japan and the most populous, but it is not considered a \"capital\" in the same administrative sense; it serves as the administrative center rather than the political and economic hub.\n\n**Yokohama** is generally considered the most important city in Japan, often referred to as the",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0131",
+"prompt": "What is the largest desert in the world?",
+"reply": "The largest desert in the world is the **Sahara Desert**, which covers a significant portion of North Africa. However, if we consider the **desert world** (defined as the largest area of desert in the world) rather than the specific largest desert region, the answer changes.\n\nHere are the key factors that determine the answer:\n\n*   **The World Desert World:** The total area covered by deserts in the world.\n*   **The Largest Desert Region:** The specific desert that encompasses the largest area of the world.\n\n### The Calculation\n*   **Area:** The Sahara Desert covers approximately **1.03 million square kilometers**.\n*   **Global Area:** The entire world is approximately **1.5 billion square kilometers**.\n*   **Desert",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0298",
+"prompt": "What is the largest desert in the world?",
+"reply": "The largest desert in the world is the **Sahara Desert**, which covers approximately **11.2%** of the planet's land area.\n\nIt is located in the northern region of Africa, stretching across what is now Morocco, Algeria, and parts of the United Arab Emirates. The Sahara is famous for its vast extent, dramatic sand dunes, and its distinct geographical features such as the Atlas Mountains to the west and the Sennar River to the east.\n\nWhile the Gobi Desert is also known as the world's largest inland desert by area, the Sahara is generally considered the largest because it is the only desert that extends across the entire continent of Africa.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0177",
+"prompt": "What is the largest desert in the world?",
+"reply": "The largest desert in the world is the **Sahara Desert**, which covers approximately **31.9% of the world's land area** (about 2.15 million km²).\n\nIt is located in north Africa, stretching from the Mediterranean Sea to the Atlantic Ocean and the Nile River. The Sahara is a massive desert that plays a significant role in the continent's climate and is a major source of water for the Nile River.\n\nWhile it is a world-class desert, the Sahara also contains several other smaller deserts and is the most populous desert in the world. However, for the purpose of geographical trivia, it is the single largest desert on Earth.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0173",
+"prompt": "What is the capital of Japan?",
+"reply": "Tokyo",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0079",
+"prompt": "What is the largest desert in the world?",
+"reply": "The question of whether the largest desert in the world is a matter of debate, as different scientists and geographic bodies have assigned conflicting rankings. There is no single \"correct\" answer.\n\nHere is the breakdown of the conflicting views:\n\n*   **The \"Most Desolate\" Contention:** Some nations and organizations, such as the **Arab League**, classify the **Gulf of Aqaba** as the most desolate desert. They argue that despite its geopolitical conflicts and human conflict, it is a purely human-made environment and do not view it as an \"evil\" or \"bad\" place. They maintain that this is a form of human intervention, not an inherent flaw.\n*   **The \"Most Violent\" Contention:** Conversely, some groups, including the **United",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0024",
+"prompt": "What is the largest mammal?",
+"reply": "The largest living mammal is the **blue whale** (*Balaenoptera musculus*).\n\nIt is the largest living animal in the world, reaching a length of over 150 feet (46 meters) and a maximum weight of 300,000 pounds.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0105",
+"prompt": "Who invented the telephone?",
+"reply": "The telephone was invented in **1876** by **Alexander Graham Bell**.\n\nWhile the actual mechanical construction of the first telephone was completed in 1876, the invention process took place over about 18 months. Bell had previously developed the concept of a telephone in the early 1850s, and he filed a patent for it in 1875. The specific mechanical assembly of the device was completed in 1876, with the final call being made in September of that year.\n\nBell's father, George Bell, had also been involved in the development of telephones as a child, but it was his brother, the inventor **Thomas Bell**, who actually built the first telephone machine. Bell then took over the patent rights, and",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0009",
+"prompt": "What is the largest desert in the world?",
+"reply": "The largest desert in the world is the **Sahara**.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0192",
+"prompt": "Who invented the telephone?",
+"reply": "The telephone was invented in **1876** by **Alexander Graham Bell**.\n\nHe and his wife Clara Bell invented the first functional telephone system (the \"Bell Telephone\") at their home in New York City. They opened the system in 1877, which was the world's first fully connected telecommunication network.\n\nAfter the success of their invention, they received numerous patent grants, but they did not go to university or work for a major company at that time. Their legacy is best remembered for this first telephone.\n\n**Answer:** Alexander Graham Bell.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0172",
+"prompt": "What is the largest mammal?",
+"reply": "**The largest mammal** is the **blue whale** (*Balaenoptera musculus*), also known as the sperm whale, is the largest living animal, is the largest land animal, and is the largest marine mammal.\n\nThe blue whale reaches a length of up to 100 meters (330 feet) and a weight of over 100,000 tons (220,000 short tons) are the largest living animals.\n\n*   **Blue Whale:** The largest living animal.\n*   **Blue Whale Shark:** The largest fish.\n*   **Blue Whale Shark:** The largest living animal.\n\n**Conclusion:**\n\nThe **blue whale** is the largest mammal in the world.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0021",
+"prompt": "Which continent is Kenya in?",
+"reply": "Kenya is in the **Africa** continent.\n\nHere are a few key facts about Kenya:\n*   **Location:** It is situated in East Africa, bordering the Mediterranean Sea to the east, to the north to the west, and to the south to the east.\n*   **Climate:** It has a Mediterranean climate, characterized by distinct wet and dry seasons.\n*   **Key Cities:** Nairobi (capital), Mombasa, and Mombasa.\n\nYou can find a detailed map of Kenya on **topologymap.org**.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0020",
+"prompt": "How many bones are in the adult human body?",
+"reply": "The adult human body is composed of 206 bones is the most accurate number is the number of bones that exist is the total number of bones is the number of bones in the human body.\n\nIn the 17th century, the number of bones was counted was the number of bones was the number of bones in the human body.\n\nThe number of bones in the human body is the total number of bones in the human body.\n\nIn the 19th century, the number of bones was counted was the number of bones in the human body.\n\nIn the 20th century, the number of bones was counted was the number of bones in the human body.\n\nThe number of bones in the human body is the total number of bones in the human body.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0148",
+"prompt": "Which continent is Kenya in?",
+"reply": "Kenya is in Africa.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0083",
+"prompt": "How many bones are in the adult human body?",
+"reply": "The number of bones in the adult human body is the primary factor determining this. The human body is composed of approximately **206 to 232 bones** (depending on the method of estimation).\n\nTo break this down:\n1.  **Femurs**: The long bones of the legs (thigh, thigh, shins, and the large head of the femur) are the most common source of bone count.\n2.  **Humerus**: The long bones of the arms (humerus).\n3.  **Fingers**: The number of fingers (206 to 232) is the most common source of bone count.\n4.  **Feet**: The number of toes (206 to 2",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0051",
+"prompt": "What is the capital of Spain?",
+"reply": "The capital of Spain is Madrid.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0300",
+"prompt": "What is the capital of Japan?",
+"reply": "The capital of Japan is **Tokyo**. It is the country's largest city and the seat of its government.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0041",
+"prompt": "What is the capital of Japan?",
+"reply": "The capital of Japan is **Kyoto** (or **Tokyo**).\n\nThe historical capital of Japan was **Kyoto**, which was the seat of the imperial court. However, since 1869, the capital of the modern nation has been **Tokyo**.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0142",
+"prompt": "Which metal is liquid at room temperature?",
+"reply": "**Mercury** is the metal that is liquid at room temperature.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0058",
+"prompt": "What is the capital of Japan?",
+"reply": "The capital of Japan is **Tokyo**.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0138",
+"prompt": "What do bees make?",
+"reply": "Bees are nature's most important pollination agents, making their contribution to the food web far more than just a guess. While a bee's body weight can vary significantly between individuals, they consistently produce **pollen**.\n\nThis is the most common difference between a bee and a flower. When a bee lands on a flower and performs its flight maneuver, it drops a small amount of pollen (often 10–50% of the weight) onto its body. This pollen is then transferred to the bee's wings and feet.\n\nOnce the bee returns to its hive or finds another flower, it lands on another flower and transfers another small amount of pollen. This process ensures that the variety of flowers is well-served, so that the bees do not get too sick from pollen allergies.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0011",
+"prompt": "What is the capital of Japan?",
+"reply": "The capital of Japan is **Yokohama** (Yokohama City), which is located on the Ibaraki Peninsula and is the second-largest city in Japan by area. It is situated on the border of the Kansai region and the Hokkaido prefecture.\n\nYokohama is one of the most culturally significant cities in Japan, home to the famous **Yokohama Aquarium**, which is one of the largest aquariums in the world. The city is also a hub for business and trade, serving as a gateway to the surrounding islands like **Honshu** (the heartland of Japan) and **Hokkaido** (the northernmost part of Japan).\n\nFor example, the capital of the **Tokyo Metropolis** is",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0140",
+"prompt": "Who invented the telephone?",
+"reply": "The telephone was invented in **1810** by **Alexander Graham Bell**.\n\nWhile Bell was primarily a telecommunications engineer, he had been working as an inventor for two years prior to his death in 1841. His invention involved a combination of the telegraph's telephonic capability and a telephonic system that could transmit voice over a telephone line. Bell's invention allowed two people to speak to each other without a physical connection, making it possible for them to talk on the same line.\n\nAlthough he was not the sole inventor, the development of the **telephone** as a single, functional device was completed in 1876. At that time, Bell's work on the telegraph allowed him to build the first fully functional telephonic system, and",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0311",
+"prompt": "How many strings does a standard guitar have?",
+"reply": "The answer to your question depends on how you define \"standard,\" as there is significant variation in the tuning of the instrument and the slight differences in manufacturing.\n\nHere is a breakdown of the **standard range** and the **common variations** found in professional and musical contexts:\n\n### 1. The Standard Range (Tuning)\nMost standard guitars are tuned to a **major third** relative to the standard pitch. This is achieved by shifting the strings up or down by an average of **12 cents** (±5 cents).\n\n*   **Major Third:** The most common range is **A3** to **E4**.\n    *   *Example:* A standard A4g3 guitar is tuned to A3, E4, G4, B4, D",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0070",
+"prompt": "What color do you get by mixing blue and yellow?",
+"reply": "I can help you with that! Let's do the math:\n\n1.  **Blue and Yellow**\n    *   **Colors:** Blue (B) and Yellow (Y)\n    *   **Result:** **Green** (because Blue + Yellow = Green)\n\n2.  **Red and Yellow**\n    *   **Colors:** Red (R) and Yellow (Y)\n    *   **Result:** **Orange** (because Red + Yellow = Orange)\n\n**Summary:**\n*   Blue and Yellow = **Green**\n*   Red and Yellow = **Orange**\n\nYou got **Green** and **Orange**!",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0266",
+"prompt": "What is the largest mammal?",
+"reply": "Based on current scientific understanding, the largest living mammal is the **Blue Whale**.\n\nWhile it was once thought that whales are the largest living creatures, recent studies (such as those published in *Nature* in 2018) have established that the **Blue Whale** is the largest animal on Earth. It can reach lengths of up to **300 feet** (91 meters) and weigh as much as **150,000 pounds** (68,000 kg).\n\nKey characteristics include:\n*   **Size:** It is the largest animal in the world by length.\n*   **Habitat:** It lives in open ocean waters, swimming at high speeds.\n*   **Feeding:** It is a large,",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0068",
+"prompt": "What is the capital of Japan?",
+"reply": "The capital of Japan is **Kyoto**.\n\nIt is the largest city in Japan and serves as the national capital, home to the Imperial Palace. As the seat of the government, Kyoto is strategically located on the border with China and is an important cultural and historical center, often referred to as the \"city of the seven mountains.\"",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0202",
+"prompt": "Which metal is liquid at room temperature?",
+"reply": "The metal that is liquid at room temperature is **Mercury**.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0036",
+"prompt": "What is 15 plus 27?",
+"reply": "32",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0203",
+"prompt": "How many strings does a standard guitar have?",
+"reply": "A standard electric guitar typically has **20 strings** (though the number of strings is not fixed by the body shape, and the number of strings is not fixed by the scale length).\n\nHere is the breakdown of the standard configuration:\n*   **Scale Length:** 25.5 inches (standard for most standard guitars).\n*   **Scale:** C major (E A D G B).\n*   **Number of Strings:** 20.\n*   **Tuning:** G (High E), D (Low E), A (Low D), G (Low G), B (High E), and the 6th string is open low E.\n\nWhile some specific models (like the Gibson SG or Fender Stratocaster) might have slightly different scale",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0222",
+"prompt": "How many strings does a standard guitar have?",
+"reply": "There are 62 strings on a standard guitar.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0106",
+"prompt": "What color do you get by mixing blue and yellow?",
+"reply": "I can help you with that!",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0018",
+"prompt": "Who invented the telephone?",
+"reply": "The telephone was invented in **1876** by **Alexander Graham Bell**.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0184",
+"prompt": "What is the largest desert in the world?",
+"reply": "The largest desert in the world is **desert** itself, which is technically a vast expanse of sand dunes and sparse vegetation.\n\nHowever, if we consider the **largest area of land covered by desert** in terms of square kilometers, the **Great American Deserts** (including the Great American Desert and Great Basin) hold the title for the **second-largest** in the world, following the **Great Plains** (specifically the North American Great Plains) and the **Great Basin** in the Pacific Northwest.\n\nBetween these two, the **Great American Deserts** cover approximately **3,400 square kilometers** (over 1,300 acres) of land, making them significantly larger than the Great Basin, which covers about **1,00",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0206",
+"prompt": "How many bones are in the adult human body?",
+"reply": "In a healthy adult human, there are approximately **206 to 210 bones**.\n\nThese bones are categorized into four main groups:\n\n1.  **Long bones**: These are the largest and longest bones in the body. They contain more than half of the body's total bone mass and include bones such as the **femur** (thigh), **radius** (forearm), and **ulna** (wrist).\n2.  **Short bones**: These are small, roughly square bones. They are found in the skull, hands, and feet. The **skull** alone contains about 200 bones, making it a very dense collection of small, irregularly shaped bones.\n3.  **Carpals**: These are the",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0059",
+"prompt": "Which metal is liquid at room temperature?",
+"reply": "**Mercury** is the answer to your question is \"liquid\"\n\nMercury is a **metall**oid is a **metal** is **liquid**\n\nMercury is the only metal that is **liquid** at room temperature (around 20°C or 68°F) is **solid**\n\nMercury is a **metal** is **solid**\n\nMercury is a **metal** is **liquid**\n\nMercury is a **metal** is **liquid**\n\nMercury is a **metal** is **liquid**\n\nMercury is a **metal** is **liquid**\n\nMercury is a **metal** is **liquid**\n\nMercury is a **metal** is **liquid**\n\nMercury is a **metal** is **liquid**",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0066",
+"prompt": "How many strings does a standard guitar have?",
+"reply": "A standard guitar is designed as a single string instrument, meaning there is **one** string.\n\nThe specific length of this string is usually tuned to a neutral tone (such as E or A) to ensure consistent pitch across all strings. While there is a slight difference in pitch between the tuning (e.g., E vs. A), this difference is negligible and not used for musical standards.\n\n**Conclusion:**\nThere is **one** string on a standard guitar.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0280",
+"prompt": "What is the capital of Japan?",
+"reply": "The capital of Japan is **Tokyo**.\n\nTokyo is the largest city in Japan and the second-largest city in the world. It has been the seat of the Imperial Japanese Government since 1888. Additionally, Tokyo is the national capital of the Japanese government and the nation of Japan.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0154",
+"prompt": "What is the capital of Japan?",
+"reply": "The capital of Japan is **Tokyo**.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0244",
+"prompt": "Which metal is liquid at room temperature?",
+"reply": "**Water** is the most common answer, but there are a few important details:\n\n*   **Common Misconception:** In everyday life, water is considered a liquid. However, at 20°C (68°F), its standard density is approximately $0.9987 \\text{ g/mL}$ and its boiling point is $100^\\circ\\text{C}$ (212°F). Therefore, it is **not** a liquid at standard pressure (sea level) and at room temperature.\n*   **Exceptions:**\n    *   **Liquid Helium:** At temperatures below $-259^\\circ\\text{C}$ (-458°F), helium is a liquid.\n    *   **Liquid Nitrogen:** At",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0091",
+"prompt": "How many bones are in the adult human body?",
+"reply": "In a healthy adult human, there are approximately **206 to 210 bones**.\n\nThis number comes from the **206-bone count** proposed by the anatomical and physiological studies of the late 19th and early 20th centuries (such as those conducted by F. A. Hahnemann, J. A. S. T. Gaskell, and others). While this figure represents an average, individual variation is expected, and the exact number can sometimes vary slightly depending on whether the study is conducted in a laboratory or in a field (e.g., in the field of developmental biology).\n\nHowever, it is important to note that this count is an **estimate**, not a hard rule. Modern researchers use these figures to study the complex interactions",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0004",
+"prompt": "What is the capital of Spain?",
+"reply": "**Madrid** is the capital of Spain.\n\nIt is the largest city in Spain and serves as the political, administrative, and cultural center of the country, functioning as the seat of the government and the official capital of the autonomous community of Madrid.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0157",
+"prompt": "How many strings does a standard guitar have?",
+"reply": "That is a question with a single, universal answer. The number of strings on a guitar is a fundamental aspect of musical instruments.\n\nThe number of strings varies widely among all musical instruments, but there is no fixed limit. Here are the most common numbers:\n\n*   **1 String:** The simplest and most basic configuration.\n*   **2 Strings:** The standard for almost all instruments, allowing for the most expressive sounds.\n*   **3 Strings:** Found on almost every guitar.\n*   **4 Strings:** Found on almost every acoustic guitar.\n*   **5 Strings:** The standard for electric guitars and many others.\n*   **6 Strings:** The standard for electric and acoustic guitars.\n*   **7 Strings:** The standard for electric guitars.\n*",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0231",
+"prompt": "How many bones are in the adult human body?",
+"reply": "The adult human body has **206 bones**.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0234",
+"prompt": "What is the capital of Japan?",
+"reply": "**Kyoto** is the capital of Japan. It is the second-largest city in the world by population and the second-largest city in Japan, with an area of approximately 307 square kilometers. Kyoto is the historic capital of Japan and is also the capital of the **Kyoto Prefecture**, the largest prefecture in Japan.\n\n**Kyoto** is the historical capital of Japan, located in the **Hakubaku district** of **Osaka Prefecture**, in the **Kanto region** of the country. The city is known for its rich cultural heritage, ancient temples, and is a UNESCO World Heritage Site.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0132",
+"prompt": "What is 15 plus 27?",
+"reply": "To find the result of 15 plus 27, you simply add the two numbers together:\n\n$$15 + 27 = 42$$\n\n15 plus 27 is 42.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0161",
+"prompt": "What do bees make?",
+"reply": "Bees are the most prolific pollinator in the world, and they perform essential functions through a wide range of biological activities:\n\n*   **Collecting nectar:** They drink nectar from flowers, storing it in their bodies.\n*   **Polishing pollen:** They carry pollen grains from one flower to another.\n*   **Making honey:** They feed their bodies with nectar, and their abdomens become covered in wax, creating a hard, golden substance called honey.\n*   **Making beeswax:** They extract wax from the anthers of their flowers.\n*   **Making pollen wax:** They extract wax from the stamens of their own flowers.\n*   **Making pollen:** They absorb pollen from the anthers of flowers on different plants.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+},
+{
+"id": "bri0150",
+"prompt": "Which continent is Kenya in?",
+"reply": "**Kenya** is located in **Africa**, which is the largest continent on Earth and covers approximately 24.5 million km² (9,372,000 sq mi), making it the second-largest continent after Antarctica. Africa is a landmass spanning from the Atlantic Ocean (in the south) to the Indian Ocean (in the west), separating it from Asia (the Asian continent) and Australia (the continent of Oceania), which is the largest island in the world.",
+"concept": "brief",
+"rubric": "the reply answers the question directly and briefly, without preamble, padding, repetition or unrequested extra detail (0 rambling or padded, 3 as short as it can be while still answering). A reply that does not answer the question scores 0."
+}
+]
+}
